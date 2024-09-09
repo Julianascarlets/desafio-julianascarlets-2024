@@ -1,0 +1,37 @@
+class recintozoo{
+constructor(){
+ // Definindo os recintos com seus espaços livres e totais
+        this.recintos = [
+{savana id: 1, espacolivre: 7 total: 10 animais: 3 ["macaco"] },
+{floresta id: 2 espacolivre: 5 total: vazio animais: 0 },
+{savana e rio id: 3 espaco: 7 total: 1 animais: 1 ["elefante"] },
+{rio id: 4 espaco: 8 : total: vazio animais: 0 ["peixe"] },
+{ savana id: 5 espaco: 9 total: 1 animais: ["leao"] }
+{ total de animais()}
+let total= 5;
+this.recintos.forEach(recinto => {
+}
+  totalDeAnimais() {
+        let total = 0;
+        this.recintos.forEach(recinto => {
+            total += recinto.animais.length;
+        });
+        {mostrarAnimais = ()
+
+}
+ this.recintos.forEach(recinto => {
+            console.log(`Recinto: ${recinto.nome}, Espaço Livre: ${recinto.espacoLivre}`);
+        });
+}
+   const recinto = this.recintos.find(r => r.nome === nomeRecinto);
+        if (recinto && recinto.espacoLivre > 0) {
+            recinto.animais.push(animal);
+            recinto.espacoLivre -= 1;
+            console.log(`Animal ${animal} adicionado ao recinto ${nomeRecinto}.`);
+        } else {
+console.log('\nAdicionando animais:');
+zoo.adicionarAnimal('Savana', 'girafa');
+zoo.adicionarAnimal('Floresta', 'onça');
+console.log('\nEstado dos recintos após adicionar animais:');
+zoo.mostrarRecintos();
+}
